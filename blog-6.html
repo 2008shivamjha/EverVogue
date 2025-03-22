@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Male_Fashion Template">
+    <meta name="keywords" content="Male_Fashion, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/logo.png">
+    <title>Circular Fashion & Zero Waste</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+        .h ul {
+            list-style: none; /* Remove default bullets */
+            padding: 0;
+        }
+        .h ul li {
+            padding-left: 30px; /* Space for the icon */
+            background: url('img/icon/leaf\ \(2\).png') no-repeat left center;
+            background-size: 20px; /* Adjust icon size */
+            margin: 10px 0;
+            
+        }
+        /* .comment-section { margin-top: 30px; }
+        .comment-box { margin-bottom: 15px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+        .comment-box strong { display: block; } */
+        .comment-box {
+    background: #00000000;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+     border: 2px solid #3498db;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.comment-box:hover {
+    transform: scale(1.02);
+}
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-right: 10px;
+}
+
+.comment-content {
+    flex-grow: 1;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: #bbb;
+    margin-left: 10px;
+}
+
+.delete-icon {
+    color: #ff5e5e;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.delete-icon:hover {
+    color: #ff0000;
+    transform: scale(1.2);
+}
+
+
+.blog__details__share li {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+
+/* Social Media Specific Background Colors */
+#shareFacebook { background: #1877F2; }  /* Facebook Blue */
+#shareTwitter { background: #1DA1F2; }  /* Twitter Blue */
+#shareLinkedIn { background: #0077B5; }  /* LinkedIn Blue */
+#shareBtn { background: #ff1e1e; }  /* Generic Share Button */
+
+/* Hover Effects */
+#shareFacebook:hover { background: #1558B0; transform: scale(1.1); }
+#shareTwitter:hover { background: #0A85D9; transform: scale(1.1); }
+#shareLinkedIn:hover { background: #0077B5; transform: scale(1.1); }
+#shareBtn:hover { background: #ff1e1e; transform: scale(1.1); }
+
+    </style>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__nav__option">
+            <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
+            <a href="#"><img src="img/icon/heart.png" alt=""></a>
+            <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
+            <div class="price">$0.00</div>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__logo">
+                        <a href="./index.html" ><img style="width: 170px;" src="img/l.png" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">Shop</a></li>
+                            <li><a href="./team.html">Team</a></li>
+                            <li class="active"><a href="./blog.html">Blog</a></li>
+                            <li><a href="./contact.html">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__nav__option">
+                        <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
+                        <a href="#"><img src="img/icon/heart.png" alt="sustainable"></a>
+                        <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
+                        <div class="price">$0.00</div>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas__open"><i class="fa fa-bars"></i></div>
+        </div>
+    </header>    <!-- Header Section End -->
+
+    <!-- Blog Details Hero Begin -->
+    <section class="blog-hero spad">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 text-center">
+                    <div class="blog__hero__text">
+                        <h2>Circular Fashion & Zero Waste</h2>
+                        <ul>
+                            <li>By Bhumika Mittal</li>
+                            <li>March 02, 2025</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Details Hero End -->
+
+    <!-- Blog Details Section Begin -->
+    <section class="blog-details spad">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-12">
+                    <div class="blog__details__pic">
+                        <img src="img/blog/details/9.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="blog__details__content">
+                        <div class="blog__details__share">
+                            <span>share</span>
+                            <ul>
+                                <li id="shareFacebook" ><i class="fa fa-facebook"></i></li>
+                                <li id="shareTwitter"><i class="fa fa-twitter"></i></a></li>
+                                <li id="shareLinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                <li id="shareBtn"><i class="fa fa-share "></i></li>
+                            </ul>
+                        </div>
+                        <div class="blog__details__text">
+                            <h4><b>Introduction</b></h4>
+                            <br>
+                            <p align="justify">In an era where sustainability is no longer just a trend but a necessity, the fashion industry is undergoing a major transformation. Circular fashion and zero waste have emerged as powerful movements, reshaping the way we produce, consume, and dispose of clothing.Circular fashion is a regenerative approach to fashion design that minimizes waste and maximizes the lifespan of garments. Unlike the traditional linear model of "take, make, dispose," circular fashion emphasizes reusing, recycling, and repurposing materials. The goal is to create a closed-loop system where clothing remains in use for as long as possible before being recycled into new materials.</p>
+                            <br><br>
+                            <h4><b>The Principles of Circular Fashion</b></h4>
+                            <div class="h">
+                                <ul>
+                                    <li>Design for Longevity – Creating high-quality, durable clothing that withstands trends and time.</li>
+                                    <li>Use of Sustainable Materials – Incorporating organic, biodegradable, or recycled fabrics.</li>
+                                    <li>Repair & Upcycling – Encouraging consumers to mend, alter, or repurpose their clothes.</li>
+                                    <li>Closed-Loop Recycling – Transforming old garments into new textiles.</li>
+                                    <li>Ethical Production – Ensuring fair labor practices and eco-friendly manufacturing processes.</li>
+                                </ul>
+                            </div>
+                            <br><br>
+                            <h4><b>Zero Waste Fashion: Redefining Waste</b></h4>
+                            <p align="justify">Zero waste fashion aims to eliminate textile waste at every stage of the production cycle. This includes zero-waste pattern cutting, where fabric is used efficiently, and post-consumer recycling, where old clothing is repurposed instead of ending up in landfills.</p>
+                            
+                        </div>
+                        
+                        <div class="blog__details__quote">
+                            <i class="fa fa-quote-left"></i>
+                            <p align="justify">“Fashion is not something that exists in dresses only. Fashion is in the sky, in the street, fashion has to do with ideas, the way we live, what is happening.”</p>
+                            <h6>_ Coco Chanel _</h6>
+                        </div>
+                        <div class="blog__details__text">
+                            
+                            <h4><b>Benefits of Circular & Zero Waste Fashion</b></h4>
+                            <div class="h">
+                                <ul>
+                                    <li>Reduces Landfill Waste: Millions of tons of textile waste are discarded annually. Circular fashion helps curb this waste.</li>
+                                    <li>Lowers Carbon Footprint: Sustainable fabrics and production methods reduce greenhouse gas emissions.</li>
+                                    <li>Conserves Water & Resources: Conventional fashion production consumes vast amounts of water and energy. Sustainable alternatives use less.</li>
+                                    <li>Encourages Ethical Practices: Fair wages, safe working conditions, and eco-friendly materials are integral to this model.</li>
+                                </ul>
+                            </div>
+                            <br><br>
+                            <h4><b>How Consumers Can Support Circular Fashion</b></h4>
+                            <div class="h">
+                                <ul>
+                                    <li>Shop Sustainable Brands – Support ethical and eco-friendly fashion labels.</li>
+                                    <li>Buy Second-Hand – Thrift stores and online resale platforms reduce demand for fast fashion.</li>
+                                    <li>Repair & Repurpose – Extend the life of your clothing by mending or upcycling old pieces.</li>
+                                    <li>Participate in Clothing Swaps – Exchange clothes instead of buying new ones.</li>
+                                    <li>Recycle Responsibly – Donate or recycle textiles instead of discarding them.</li>
+                                </ul>
+                            </div>
+                            <br><br>
+                            <h4 ><b>The Future of Fashion is Circular</b></h4>
+                            <br>
+                            <p align="justify">As consumers become more conscious of their impact, brands are adapting to meet the demand for sustainable and zero-waste solutions. With advancements in textile recycling, biodegradable fabrics, and innovative business models like rental fashion, the industry is moving toward a more sustainable future.<br> By embracing circular fashion and zero waste practices, we can reduce our environmental impact while still enjoying style and creativity. The fashion revolution starts with conscious choices—are you ready to be part of it?
+                                
+                                </p>
+                            
+                        </div>
+                        <div class="blog__details__option">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="blog__details__author">
+                                        <div class="blog__details__author__pic">
+                                            <img src="img/blog/details/w5.png" alt="">
+                                        </div>
+                                        <div class="blog__details__author__text">
+                                            <h5>Bhumika Mittal</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="blog__details__tags">
+                                        <a href="#">#innovation</a>
+                                        <a href="#">#tech_in_fashion</a>
+                                        <a href="#">#evervogue_</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="blog__details__btns">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <a href="./blog-5.html" class="blog__details__btns__item">
+                                        <p><span class="arrow_left"></span> Previous Blog</p>
+                                        <h5>Innovations in Sustainable Fashion: A Greener Future</h5>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <a href="./blog-1.html" class="blog__details__btns__item blog__details__btns__item--next">
+                                        <p>Next Blog <span class="arrow_right"></span></p>
+                                        <h5>Sustainable Fashion: A Step Towards a Greener Future</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog__details__comment">
+                            <div id="comment-list"></div>
+                            <h4>Leave A Comment</h4>
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <input type="text" id="username" placeholder="Name">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <input type="email" id="email" placeholder="Email">
+                                    </div>
+                                    <div class="col-lg-12 text-center">
+                                        <textarea id="comment" placeholder="Comment"></textarea>
+                                        <button type="submit" class="site-btn" onclick="addComment()">Post Comment</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Details Section End -->
+
+   <!-- Footer Section Begin -->
+   <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer__about">
+                    <div class="footer__logo">
+                        <a href="#"><img src="img/f.png" alt="" ></a>
+                    </div>
+                    <p>Stay updated with the latest in eco-friendly designs, ethical clothing, and zero-waste fashion initiatives.</p>
+                    <a href="#"><img src="img/payment.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                <div class="footer__widget">
+                    <h6>Shopping</h6>
+                    <ul>
+                        <li><a href="#">Clothing Store</a></li>
+                        <li><a href="#">Trending Shoes</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Sale</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6">
+                <div class="footer__widget">
+                    <h6>Shopping</h6>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Payment Methods</a></li>
+                        <li><a href="#">Delivary</a></li>
+                        <li><a href="#">Return & Exchanges</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+                <div class="footer__widget">
+                    <h6>NewLetter</h6>
+                    <div class="footer__newslatter">
+                        <p>Discover the revolution in sustainable fashion with our eco-friendly collections.</p>
+                        <form action="#">
+                            <input type="text" placeholder="Your email">
+                            <button type="submit"><span class="icon_mail_alt"></span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="footer__copyright__text">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <p>Copyright © by <a style="text-decoration: none;" href="./index.html">EverVogue</a> 
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                        All rights reserved <i class="fa-solid fa-seeding"></i>
+                    </p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<!-- Search Begin -->
+<div class="search-model">
+    <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="search-close-switch">+</div>
+        <form class="search-model-form">
+            <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+    </div>
+</div>
+<!-- Search End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", loadComments);
+
+function addComment() {
+    let username = document.getElementById("username").value.trim();
+    let comment = document.getElementById("comment").value.trim();
+
+    if (!username || !comment) {
+        alert("Please enter your name and comment.");
+        return;
+    }
+
+    let timestamp = new Date().toLocaleString(); // Get current time
+    let color = getRandomColor(); // Assign random color to user icon
+
+    let comments = JSON.parse(localStorage.getItem("comments")) || [];
+    comments.unshift({ username: username, comment: comment, timestamp: timestamp, color: color }); // Add at top
+    localStorage.setItem("comments", JSON.stringify(comments));
+
+    document.getElementById("username").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("comment").value = "";
+
+    loadComments(); // Refresh comments
+}
+
+function loadComments() {
+    let commentList = document.getElementById("comment-list");
+    commentList.innerHTML = "";
+
+    let comments = JSON.parse(localStorage.getItem("comments")) || [];
+
+    comments.forEach((commentObj, index) => {
+        if (!commentObj.username || !commentObj.comment || !commentObj.timestamp || !commentObj.color) return;
+
+        let commentBox = document.createElement("div");
+        commentBox.classList.add("comment-box");
+        commentBox.innerHTML = `
+            <div class="user-icon" style="background-color: ${commentObj.color}">
+                ${commentObj.username.charAt(0).toUpperCase()}
+            </div>
+            <div class="comment-content">
+                <strong>${commentObj.username}</strong>
+                <span class="timestamp">${commentObj.timestamp}</span>
+                <p>${commentObj.comment}</p>
+            </div>
+            <i class="delete-icon fa fa-trash" onclick="deleteComment(${index})"></i>
+        `;
+        commentList.appendChild(commentBox);
+    });
+}
+
+function deleteComment(index) {
+    let comments = JSON.parse(localStorage.getItem("comments")) || [];
+    comments.splice(index, 1);
+    localStorage.setItem("comments", JSON.stringify(comments));
+
+    loadComments(); // Refresh comments
+}
+
+// Function to generate a random color
+function getRandomColor() {
+    let colors = ["#FF5733", "#33FF57", "#336BFF", "#FFC300", "#8E44AD", "#2ECC71", "#E74C3C"];
+    return colors[Math.floor(Math.random() * colors.length)];
+}
+
+    </script>
+     <script>
+        let pageUrl = encodeURIComponent(window.location.href);
+        let pageTitle = encodeURIComponent(document.title);
+
+        // Share on Facebook
+        document.getElementById("shareFacebook").addEventListener("click", function() {
+            let fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
+            window.open(fbUrl, "_blank");
+        });
+        // Share on LinkedIn
+        document.getElementById("shareLinkedIn").addEventListener("click", function() {
+            let linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`;
+            window.open(linkedInUrl, "_blank");
+        });
+        document.getElementById("shareTwitter").addEventListener("click", function() {
+            let twitterUrl = `https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`;
+            window.open(twitterUrl, "_blank");
+        });
+
+        </script>
+  <script>
+    document.getElementById("shareBtn").addEventListener("click", function() {
+        if (navigator.share) {
+            navigator.share({
+                title: document.title,
+                text: "Check this out!",
+                url: window.location.href
+            }).then(() => console.log('Shared successfully'))
+            .catch((error) => console.log('Error sharing:', error));
+        } else {
+            fallbackCopyToClipboard();  // Call fallback function if not supported
+        }
+    });
+
+    function fallbackCopyToClipboard() {
+        let shareableLink = window.location.href;
+        navigator.clipboard.writeText(shareableLink)
+            .then(() => alert("Web Share API not supported. Link copied to clipboard!"))
+            .catch(err => console.error("Failed to copy:", err));
+    }
+</script>
+
+
+        </script>
+</body>
+
+</html>
